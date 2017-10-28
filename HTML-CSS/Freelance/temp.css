@@ -1,0 +1,69 @@
+/*CC0000 red
+  FF6600 orange
+  660099  purple	
+  000000 black
+*/
+body {
+    background-color: #FF6600;
+	color: #000000;
+	font-family: comic sans, verdana, tahoma, san-serrif;
+}
+#wrapper{
+	width: 950px;
+	background-color: #FF6600;
+	margin: auto;
+	/* same amount of space on both sides */
+}
+h1 {
+    color: maroon;
+    margin-left: 40px;
+} 
+ul {
+    list-style-position: inside;
+	margin: auto;
+	font-size: 20px;
+}
+nav a{ color: red;
+		text-decoration: none;
+		padding: 5px;
+		
+}
+ h1{
+	font-family: Yatra One, cursive;
+	font-size: 40px;
+	text-shadow: 5px 5px 10px #660099;
+}
+p, ul{
+	font-size: .90em;
+	line-height: 200%;
+	
+	
+}
+footer{
+	background-color: #9BC1C2;
+    font-size:12px;
+	font-style: italic;
+	text-align: center;
+	font-weight: bold;
+	
+}
+.accent{
+	color: gold;
+	font-weight: bold;
+	letter-spacing: 2px;
+	
+	
+}
+
+
+#leftcol{
+    padding: 10px;
+    margin: 10px 5px 0px 5px;
+}
+
+
+#rightcol{
+    padding: 10px;
+    margin: 10px 10px 0px 5px;
+
+}

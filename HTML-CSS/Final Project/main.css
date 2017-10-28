@@ -1,0 +1,126 @@
+/* All for DROP down */
+ul {
+    list-style-type: none;
+    margin: 10px 10px 10px 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: auto;
+}
+
+li a:hover, .dropdown:hover .dropdown-content {
+    background-color: red;
+    display: block;
+}
+
+li.dropdown {
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: #e5e5e5;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+
+/* All For Parallax */
+
+.parallax {
+
+    background-image: url("CONTENT/EL.jpg");
+
+    height: 770px;
+
+
+    background-attachment: fixed;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 30px 30px 30px;
+    border: solid 10px #d10000;
+    padding: 20px 20px 20px 20px;
+}
+
+/* Body Stuff */
+#Wrapper{
+    max-width: 1200px;
+    background-color: #d6d2d5;
+
+}
+#rightCOL{
+    border: solid black 7px;
+    min-height: 35px;
+    width: 500px;
+    float: left;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    background-color: #d6d2d5;
+}
+#leftCOL{
+    border: solid black 7px;
+    min-height: 35px;
+    width: 500px;
+    float: right;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    background-color: #d6d2d5;
+}
+#leftCOL h2{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    background-color: #fffbfe;
+}
+#rightCOL h2{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    background-color: #fffbfe;
+}
+h1{
+    background-color: #fefffe;
+
+}
+body{
+    background-color: #d6d2d5;
+}
+header{
+    margin: 0px;
+}

@@ -1,0 +1,96 @@
+body{
+    background-image: url("nomad/background.jpg");
+    background-size: 100% 100%;
+    background-color: navy;
+    background-repeat: no-repeat;
+
+}
+#wrapper{
+    width: 950px;
+    margin: 20px auto;
+    background-color: #FFFFFF;
+
+}
+#leftcol{
+    width: 600px;
+    float: left;
+    background-color: #bbbcb6;
+    min-height: 300px;
+    padding: 10px 10px 10px 10px;
+    border-right: dotted 1px grey;
+    text-align: center;
+    margin:10px 2px 10px 5px;
+
+
+}
+
+#rightcol{
+    width: 300px;
+    float: right;
+    min-height: 300px;
+    background-color: #bbbcb6;
+    padding: 0px 5px 0px 5px;
+    border: double;
+    text-align: center;
+    margin: 10px 2px 5px 5px;
+
+}
+header{
+    height: 100px;
+    padding: 0 10px;
+    align-content: center;
+    border: double 5px;
+    margin: 5px 5px 5px 5px;
+    width: 100%;
+    background-color: #bbbcb6;
+}
+footer{
+    clear: both;
+    padding: 10px 15px 10px 10px;
+    border-top: dotted 1px grey;
+    min-height: 30px;
+    margin: 10px 10px 10px 10px;
+    background-color: #bbbcb6;
+    text-align: center;
+
+
+}
+#heroPic{
+    width: 95%;
+    margin: 10px 10px 10px 10px;
+    float: left;
+    height: 380px;
+    text-align: center;
+    color: #FFFFFF;
+    background-image: url("img_home_homecoming_band_parade-950x380.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 10px 10px 10px 10px;
+
+}
+nav{
+    float: left;
+    margin: 5px 0px 5px 5px;
+    border: double;
+    width: 95%;
+    border: double 5px;
+    background-color: #bbbcb6;
+    padding: 10px 0px 0px 0px;
+
+}
+ul{
+
+}
+nav li{
+    display: inline;
+    color: black;
+    padding: 2px 10px 2px 10px;
+    text-decoration: none;
+    border: solid 2px navy;
+}
+li a {
+    font-size: 20px;
+    text-decoration: none;
+
+}
+

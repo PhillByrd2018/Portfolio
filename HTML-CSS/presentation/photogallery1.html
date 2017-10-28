@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <meta name="robots" content="noindex">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Responsive Tiled Photo Gallery in Pure CSS</title>
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            background: #EEE;
+            font: 10px/13px 'Lucida Sans',sans-serif;
+        }
+        .wrap {
+            overflow: hidden;
+            margin: 10px;
+        }
+        .box {
+            float: left;
+            position: relative;
+            width: 20%;
+            padding-bottom: 20%;
+        }
+        .boxInner {
+            position: absolute;
+            left: 10px;
+            right: 10px;
+            top: 10px;
+            bottom: 10px;
+            overflow: hidden;
+        }
+        .boxInner img {
+            width: 100%;
+        }
+        .boxInner .titleBox {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin-bottom: -50px;
+            background: #000;
+            background: rgba(0, 0, 0, 0.5);
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+        }
+        body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
+            margin-bottom: 0;
+        }
+    </style>
+
+</head>
+
+<body class="no-touch">
+
+<div class="wrap">
+
+    <div class="box">
+        <div class="boxInner">
+            <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/7.jpg" />
+            <div class="titleBox">Butterfly</div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="boxInner">
+            <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/1.jpg" />
+            <div class="titleBox">An old greenhouse</div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="boxInner">
+            <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/2.jpg" />
+            <div class="titleBox">Purple wildflowers</div>
+        </div>
+    </div>
+
+</div>
