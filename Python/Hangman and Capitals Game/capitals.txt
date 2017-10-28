@@ -1,0 +1,16 @@
+Germany : Berlin
+Austria : Vienna
+Italy : Rome
+Russia : Moscow
+America : Washington
+Canada : Toronto
+England : London
+France : Paris
+Hungry : Budapest
+Denmark : Copenhagen
+Sweden : Stockholm
+Belgium : Brussels
+Colombia : Bogota
+Cuba : Havana
+Spain : Madrid
+Japan : Tokyo
