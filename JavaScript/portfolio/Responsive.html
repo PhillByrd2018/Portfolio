@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Index Page for my 215 Portfolio </title>
+<meta charset="utf-8">
+<link rel="Stylesheet" href="mainstyle.css">
+
+ <style>
+
+  #Tiny{
+   visibility: hidden;
+  }
+  #DropDown{
+   visibility: hidden;
+  }
+  .DropDown-Content a{
+   display: block;
+   background-color: white;
+   max-width: 500px;
+   font-size: 25px;
+   color: black;
+   line-height: 170%;
+
+
+
+
+
+  }
+  .DropDown{
+   float: left;
+   max-height: 100px;
+   max-width: 200px;
+
+  }
+
+  nav a{
+   padding-left: 0px;
+  }
+
+</style>
+
+
+  </head>
+
+
+<body onresize="goAway()" onload="goAway()">
+
+<header>
+
+
+<img src="assign01pic.jpg" alt="Profile Pic" 
+width=200 height=200 align="left">
+
+<center><h1>--Phillip B.-- CIS-- 2018--Drone Racing--</h1></center>
+
+
+<br>
+
+<center>This was created on <i>09/09/2016</i></center>
+
+</header>
+
+<div id="Tiny" class="DropDown">
+ <img onClick="run()" id="navPic" src="navBar.jpg" alt="Nav Icon" width="50" height="50">
+ <div id="DropDown" class="DropDown-Content">
+  <nav>
+   <a href="Responsive.html">Home</a>
+   <a href="German_201/German.html"> German 201</a>
+   <a href="CSCI_215/215.html"> CSCI 215 Web Programming</a>
+   <a href="Math_105/Math.html"> MATH 105 Calculus</a>
+   <a href="CSCI_220/220.html">CSCI 220 Programming</a>
+  </nav>
+ </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<hr>
+<main>
+ <div id="Original">
+  <nav>
+<a href="Responsive.html"><center> Home </center></a>
+ &nbsp;&nbsp;&nbsp;
+<a href="German_201/German.html"><center> German 201 </center></a>
+ &nbsp;&nbsp;&nbsp;
+<a href="CSCI_215/215.html"><center> CSCI 215 Web Programming </center></a> 
+&nbsp;&nbsp;&nbsp;
+<a href="Math_105/Math.html"><center> MATH 105 Calculus   </center></a>
+ &nbsp;&nbsp;&nbsp;
+<a href="CSCI_220/220.html"><center> CSCI 220 Programming</center></a>
+ &nbsp;&nbsp;&nbsp;
+</nav>
+</div>
+
+
+<hr>
+
+</main>
+<img src="Bannerfinal01.jpg" alt="School Banner" width = 99%>
+<hr>
+<p>This is my third semester at CofC and my first semester with Computer Science courses. So far my learning experience here at the college has been fantastic. I really enjoying studying in this field and Chraleston has been a great place to live for the last year. The food, growing industry, and culture make Chalreston a great place to call home. I really like studying Technology and Computers. My hobby for the last few years has been buidling and programming racing quad-copters.
+<br>
+<center><u>Here is what is looks like in the air:</u></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/ByrermOpD-s" frameborder="0" allowfullscreen></iframe></center>
+<br>
+<br>
+<hr>
+<center><b><i><a href="CSCI215_Fall2016_Assignment1.pdf">This is the PDF for assignment.</a></i></b></center>
+
+</p>
+</body>
+
+
+<br>
+<br>
+<br>
+
+
+<footer> 
+<a href="http://www.cofc.edu/">College of Chalreston</a><br><br>
+<a href="http://compsci.cofc.edu/">CofC CSCI</a><br><br>
+<a href="mailto:byrdp@g.cofc.edu.edu">byrdp@g.cofc.edu</a>
+<br>
+<br>
+
+
+
+
+</footer>
+<script>
+
+
+
+
+ function goAway() {
+  if (window.outerWidth > 1000) {
+   document.getElementById("Original").style.visibility = "visible";
+   document.getElementById("Tiny").style.visibility = "hidden";
+   //document.getElementById("Tiny").style.maxWidth = "10px";
+   //document.getElementById("Tiny").style.maxHeight ="10px";
+
+
+  }
+  else if (window.outerWidth < 1000) {
+   document.getElementById("Original").style.visibility = "hidden";
+   document.getElementById("Tiny").style.visibility = "visible";
+
+  }
+ }
+
+
+
+ function run() {
+   document.getElementById("DropDown").style.visibility = "visible";
+
+ }
+
+ window.onresize = goAway;
+ window.onload = goAway;
+
+
+</script>
+
+
+
+</html>

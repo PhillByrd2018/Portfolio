@@ -1,0 +1,49 @@
+body {
+	color: beige;
+	background-color:#00628b;
+	
+}
+
+#wrappper {
+	
+	width: 850px;
+	background-color: #E6E6DC;
+	margin: auto;
+	padding: 35px;
+}
+
+h1 {
+	text-align: center;
+	text-color: beige;
+}
+
+p{
+	text-align: center;
+	text-color: beige;
+	font-size: 27px;
+	line-height: 1.5;
+}
+
+h2 {
+	text-align: left;
+	text-color: beige;
+
+}
+a:link {
+	color: beige;
+
+}
+a:visited {
+	color: grey;
+
+}
+hr { 
+    display: block;
+	border-width: 15px;
+	color: grey;
+}
+footer{
+	background-color: #00004d;
+	width: 110%
+	
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>picViewer</title>
+
+</head>
+<body>
+
+<a href="javascript: performLabor('images/picVImages/01.jpg');"><img src="images/picVImages/01.jpg" height="200" width="200"></a>
+<a href="javascript: performLabor('images/picVImages/02.jpg');"><img src="images/picVImages/02.jpg" height="200" width="200"></a>
+<a href="javascript: performLabor('images/picVImages/03.jpg');"><img src="images/picVImages/03.jpg" height="200" width="200"></a>
+<a href="javascript: performLabor('images/picVImages/04.jpg');"><img src="images/picVImages/04.jpg" height="200" width="200"></a>
+<a href="javascript: performLabor('images/picVImages/05.jpg');"><img src="images/picVImages/05.jpg" height="200" width="200"></a>
+
+<div id="imageDisplay" style=" position: relative; top: -150px; left: 275px; height: 400px;
+width: 600px; visibility: hidden;">
+
+</div>
+
+</body>
+<script type="text/javascript">
+
+function performLabor(theimage){
+
+    imageDisplay.innerHTML="";
+    imageDisplay.innerHTML += "<img src=" + theimage + " height=600 width=600><br>";
+    imageDisplay.innerHTML += "<span style=\"position: relative; left: 5px; top: -550px;\">" +
+            "<a href=\"javascript: dowork()\"><img src=\"images/picVImages/letterX.png\" height=55 width=55\"></a></span>";
+    imageDisplay.style.visibility="visible";
+
+
+}
+function dowork(){
+    imageDisplay.innerHTML="";
+    imageDisplay.style.visibility="hidden";
+}
+</script>
+</html>

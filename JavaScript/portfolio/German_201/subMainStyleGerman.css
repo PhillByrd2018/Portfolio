@@ -1,0 +1,29 @@
+body {
+	color: ;
+	background-color:#8b001d;
+	
+}
+a:link {
+	color: black;
+
+}
+a:visited {
+	color: yellow;
+
+}
+p{
+	text-align: center;
+	text-color: black;
+	font-size: 25px;
+	line-height: 1.5;
+}
+hr{ 
+    display: block;
+	border-width: 15px;
+	color: black;
+}
+footer{
+	background-color: #330000;
+	width: 110%
+	
+}

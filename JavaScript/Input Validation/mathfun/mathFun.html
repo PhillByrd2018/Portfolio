@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Assignment 2
+    </title>
+    <style>
+        table {
+            text-align: center;
+            font-size: 25px;
+            background-color: darkolivegreen;
+        }
+
+        p {
+            text-align: center;
+            font-size: 20px;
+        }
+        input{
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+<script>
+    function cal(){
+        var array = new Array();
+        var counter = 0;
+
+        var sumFinal = document.getElementById("sumFinal");
+        var maxFinal = document.getElementById("maxFinal");
+        var minFinal = document.getElementById("minFinal");
+        var meanFinal = document.getElementById("meanFinal");
+        var medianFinal = document.getElementById("medianFinal");
+        var evenFinal = document.getElementById("evenFinal");
+        var oddFinal = document.getElementById("oddFinal");
+
+
+        var userValue = parseInt(prompt("Please Enter a Positive Number (-1 to exit)", ""));
+
+        while(userValue != -1){
+            array[counter] = userValue;
+            counter = counter + 1;
+            userValue = parseInt(prompt("Please Enter a Positive Number (-1 to exit)", ""));
+        }
+
+        var sum = 0;
+        var max = 0;
+        var min = 1000000000000000;
+        var mean = 0;
+
+        // this part will take user input and calculate max, min, sum
+        for(var k = 0; k < array.length; k = k + 1){
+            sum = sum + array[k];
+            if(max < array[k]){
+                max = array[k];
+            }
+            if(min > array[k]){
+                min = array[k];
+            }
+        }
+
+        //this part will find the average in the total of userValues
+        mean = sum / array.length;
+
+
+
+        //This part will find the middle value
+        function median(values){
+            values.sort(function(a,b){return a - b;});
+
+            var half = Math.floor(values.length/2);
+
+            if(values.length % 2){
+                return values[half];
+            }
+            else{
+                return (values[half-1] + values[half]) / 2.0;
+            }
+        }
+
+
+        //finding evens
+        var even = new Array();
+
+        for(var l = 0; l < array.length; l = l + 1){
+            if((array[l] % 2) === 0){
+                even.push(array[l]);
+            }
+        }
+
+        //finding odds
+        var odd = new Array();
+
+        for(var p = 0; p < array.length; p = p + 1){
+            if((array[p] % 2) === 1){
+                odd.push(array[p]);
+            }
+        }
+
+        sumFinal.innerHTML = sum;
+        maxFinal.innerHTML = max;
+        minFinal.innerHTML = min;
+        meanFinal.innerHTML = mean;
+        medianFinal.innerHTML = median(array);
+        evenFinal.innerHTML = even;
+        oddFinal.innerHTML = odd;
+
+    }
+</script>
+
+<center><table border="1">
+    <tr>
+        <th>Category of Values</th>
+        <th>Output Values</th>
+    </tr>
+    <tr>
+        <td>The total of all values:</td>
+        <td id="sumFinal"></td>
+    </tr>
+    <tr>
+        <td>The maximum value:</td>
+        <td id="maxFinal"></td>
+    </tr>
+    <tr>
+        <td>The minimum value:</td>
+        <td id="minFinal"></td>
+    </tr>
+    <tr>
+        <td>The mean value:</td>
+        <td id="meanFinal"></td>
+    </tr>
+    <tr>
+        <td>The median value:</td>
+        <td id="medianFinal"></td>
+    </tr>
+    <tr>
+        <td>The even values:</td>
+        <td id="evenFinal"></td>
+    </tr>
+    <tr>
+        <td>The odd values:</td>
+        <td id="oddFinal"></td>
+    </tr>
+</table></center>
+<br>
+<br>
+<br>
+<br>
+<center><input type="button" value="Run Program" onClick="cal()"></center>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<html>
+
+<body>
+
+
+<script>
+
+function checkDate(){
+
+	var input = document.getElementById("input").innerHTML; 
+	var output = document.getElementById("output"); 
+
+	var in1 = input.split("-");
+	var in2 = input.split("/");
+	
+	if(in1.length == 3 || in2.length == 3){
+	   output.innerHTML = "yes";
+	}else{
+	   output.innerHTML = "no";
+	}
+}
+
+
+</script>
+
+<form>
+Input:
+<div id="input" contenteditable="true">Enter a date in either format: MM-DD-YYYY or MM/DD/YYYY</div>
+<br><br>
+Output:
+<div id="output">Output will come here</div>
+
+<input type="button" value="Click Me!" onClick="checkDate()">
+</form>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<html>
+<body>
+<script>
+function fun() {
+
+	var input = document.getElementById("inputdiv").innerHTML;
+	var points = input.replace(")("," ");
+	points = points.replace(")","").replace("(","");
+	points = points.split(" ");
+	var firstPoint = points[0].split(",");
+	var secondPoint = points[1].split(",");
+	var firstX = firstPoint[0];
+	var secondX = secondPoint[0];
+	var firstY = firstPoint[1];
+	var secondY = secondPoint[1];
+	var xs = secondX - firstX;
+	var ys = secondY - firstY;
+
+	var area = (xs * ys) / 2.0;
+	var outputdiv = document.getElementById("outputdiv");
+
+	outputdiv.innerHTML = Math.abs(area);
+}
+</script>
+
+<form id="f1">
+<p>Enter two coordinates (x,y)(x,y):</p>
+<div id = "inputdiv" contenteditable= "true"></div>
+
+
+<p>Area of Right Triangle:</p>
+
+<div id="outputdiv"></div>
+<br>
+<input type="button" value="Run Function" onClick="fun()">
+
+</form>
+</body>
+</html>

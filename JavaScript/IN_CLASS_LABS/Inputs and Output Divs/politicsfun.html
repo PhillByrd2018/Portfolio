@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<meta charset="utf-8">
+</head>
+<body>
+
+    <div id="block">
+    	<input id="inputbox" type="text" name="search" placeholder="Enter a number and candidates name..">
+    	<input type="button" onClick="getImage()" value="Get Image">
+    </div>
+
+    <div id="output">
+    </div>
+
+	<script>
+
+		function getImage() {
+			var inputString = document.getElementById("inputbox").value;
+    		var wordList = inputString.split(" ");
+    		var num = parseInt(wordList[0]);
+    		var candidateName = String(wordList[1]);
+
+    		console.log(wordList)
+    		console.log(num);
+    		console.log(candidateName);
+
+            document.getElementById("output").innerHTML = "";
+
+    		if (candidateName=="Trump") {
+    		
+                for (var i=0; i<num; i++) {
+
+                    document.getElementById("output").innerHTML += "<img src="trump.jpg">";
+                }
+
+
+    		} else if (candidateName=="Clinton") {
+    			for (var i=0; i<num; i++) {
+
+                    document.getElementById("output").innerHTML += "<img src="clinton.jpg">";
+                }
+    		}
+		}
+	</script>
+
+</body>
+</html>

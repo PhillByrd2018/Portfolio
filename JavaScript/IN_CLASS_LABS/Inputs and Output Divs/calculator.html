@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<script>
+    function cal(){
+
+        var input= document.getElementById("input");
+        var output=document.getElementById("output");
+        var ans = 0;
+        var split=input.innerHTML.split(" ");
+            if (split[1]=="+"){
+                ans =parseInt(split[0])+ parseInt(split[2]);
+
+            }
+            else if (split[1]=="-"){
+                ans = split[0]-split[2];
+
+            }
+            else if (split[1]=="*"){
+                ans = split[0]*split[2];
+            }
+            else if (split[1]=="/"){
+                ans =split[0]/split[2];
+            }
+            else if (split[1]=="%"){
+                ans =split[0]%split[2];
+            }
+            else{document.write("You Failed Me : ");
+            }
+         output.innerHTML=ans;
+
+    }
+
+</script>
+
+<form id="calc">
+
+    <div id="input" contenteditable="true">input</div>
+
+    <div id="output">output</div>
+
+    <input type="button" value="calculate" onclick="cal()">
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+
+<body>
+
+<script>
+
+function verifyText(){
+	console.log(document.fun.username);
+	if(document.fun.username.value.length >= 6 && document.fun.password.value.length >= 6){
+		document.fun.submit();
+	}else{
+		alert("Username/Password needs to be >= 6 characters");
+	}
+}
+
+</script>
+
+<form name="fun" method="get" action="http://cs-sun2000.uscupstate.edu/~student1/cgi-bin/echo.cgi">
+
+<input type="text" name="username" required value="hi"><br />
+<input type="password" name="password" required><br />
+
+<input type="button" onclick="verifyText()" value="Click me!!">
+<input type="reset" value="Start Over">
+
+
+</form>
+
+</body>
+</html>

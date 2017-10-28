@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CountDown</title>
+    <style>
+        body{
+            background-color: #13004d;
+        }
+        #wrapper{
+            border: dashed;
+            max-width: 800px;
+            margin: auto;
+            background-color: #ebe90a;
+            border-radius: 10px;
+        }
+        #input{
+            background-color: #B0BEC5;
+            border: 3px solid black;
+            max-width: 300px;
+            margin: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 10px 10px 10px 10px;
+            font-size: 19px;
+
+        }
+        #output{
+            background-color: #B0BEC5;
+            border: 3px solid black;
+            min-height: 30px;
+            max-width: 40px;
+            margin: auto;
+            margin-bottom: 15px;
+            padding: 10px 10px 10px 10px;
+            font-size: 21px;
+        }
+        h1{
+            border: dashed;
+            margin: -10px -10px 15px -10px;
+
+            padding: 50px;
+            padding-left: 140px;
+            background-color: #ebe90a;
+        }
+        h3{
+            margin-left: 100px;
+            border: dashed;
+            margin-top: 15px;
+            max-width: 200px;
+            padding: 7px;
+            background-color: #8b001d;
+        }
+        hr{
+        }
+
+    </style>
+</head>
+<body onload="document.getElementById('input').focus();" onkeypress="countThem()";>
+
+<h1>You are only allowed to enter 50 characters in the input box.</h1>
+    <div id="wrapper">
+<form>
+    <div id="input" contenteditable="true" onkeypress="countThem()" onkeyup="countThem()"></div>
+    <hr>
+    <h3>Number of characters remaining:</h3>
+    <div id="output"></div>
+</form>
+
+</div>
+
+</body>
+<script>
+
+
+
+
+    function countThem(){
+        var input = document.getElementById("input").innerHTML;
+        var output = document.getElementById("output").innerHTML;
+        var split = input.toString().split("");
+        var splitCount = split.length;
+
+        var counter = (50 -splitCount);
+        if (counter < 0 ){
+            document.getElementById("output").style.color = "#FF0000";
+        }else if( counter > 0){
+            document.getElementById("output").style.color = "black";
+        }
+
+        document.getElementById("output").innerHTML = counter;
+
+
+    }
+
+
+</script>
+</html>

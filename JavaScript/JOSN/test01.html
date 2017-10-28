@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text helper</title>
+</head>
+<body>
+<form action="">
+    Professor Name:<input type="text" id="txt1" onkeyup="showPage(this.value)">
+
+
+</form>
+<p>Professor's Home Page<span id="linkPage"></span></p>
+
+<script>
+
+    function showPage(name){
+        var xhttp;
+        if (name.length==0){
+            document.getElementById("linkPage").innerHTML ="";
+            return;
+        }
+        xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function(){
+            if (this.readyState == 4 && this.status == 200){
+                document.getElementById("linkPage").innerHTML = this.responseText;
+
+            }
+        };
+        xhttp.open("GET", "ajax.php?q="+str, true);
+        xhttp.send();
+
+    }
+</script>
+</body>
+</html>

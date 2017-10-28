@@ -1,0 +1,48 @@
+﻿<html>
+
+<body>
+<script>
+var fun = new Array();
+var count = 0;
+
+/////////////////////////////////////////////////////////
+// Read in some integers:
+
+var item = parseInt(prompt("enter a number", ""));
+while(item != -1){
+	fun[count] = item;
+	count = count + 1;
+	item = parseInt(prompt("enter a number", ""));
+}
+
+///////////////////////////////////////////////////////////
+// Print out what we read in:
+document.write("Number of items read in: " + count + "<br>");
+for(var i=0;i<fun.length;i=i+1){
+	document.write(fun[i] + "<br>");
+}
+
+//////////////////////////////////////////////////////////
+// Compute average and max
+
+var sum = 0;
+var max = 0;
+for(var i=0;i<fun.length;i=i+1){
+	sum = sum + fun[i];
+	if(max < fun[i]){
+		max = fun[i];
+	}
+}
+
+document.write("Average is: " + sum/fun.length + "<br>");
+document.write("Max value is: " + max + "<br>");
+
+
+</script>
+
+
+</body>
+
+
+
+</html>

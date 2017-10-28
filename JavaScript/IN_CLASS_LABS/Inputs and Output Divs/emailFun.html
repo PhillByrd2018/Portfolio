@@ -1,0 +1,51 @@
+<html>
+<body>
+
+<script>
+/*
+	Created by: Tuesday Fig && Zack Cuomo
+				September 30, 2016
+				Email Fun!!!
+*/ 
+function emailFunc()
+{
+	var output = document.getElementById("outputdiv");
+	var input = document.getElementById("inputdiv");
+	
+	var email = input.innerHTML.split(".");
+	//Check the last element of the split for the domain
+	var domain = email[email.length-1];
+	if(domain == "com")
+		output.innerHTML = "Commercial";
+	else if(domain == "edu")
+		output.innerHTML = "Education";
+	else if(domain == "org")
+		output.innerHTML = "Organization";
+	else if(domain == "mil")
+		output.innerHTML = "Military";
+	else if(domain == "gov")
+		output.innerHTML = "Government";
+	else
+		output.innerHTML = "Other";
+}		
+
+</script>
+
+<form id="f1">
+
+To check the email domain<br><br>
+
+<div id="inputdiv" style="background-color: cyan;" contenteditable="true">Enter the email </div>
+
+<br><br>
+
+<div id="outputdiv" border=1 style="background-color: #EEEEEE;"></div>
+
+<br><br>
+
+<input type="button" value="Run Function" onClick="emailFunc()">
+
+</form>
+
+</body>
+</html>

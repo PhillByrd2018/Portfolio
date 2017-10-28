@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Processes</title>
+    <style>
+
+
+        form{
+            text-align: center;
+            font-size: 25px;
+            background-color: red;
+
+        }
+        p{
+            text-align: center;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+
+
+
+<!--suppress JSAnnotator -->
+<script>
+    var w = alert("This page counts the word frequency of any set of text entered.");
+
+
+    function dictionary(){
+
+
+        var input = document.getElementById("textInput");
+        var output = document.getElementById("numOutput");
+
+        var clean = input.innerHTML.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g,"") + "";
+
+
+
+
+        var upper = clean.toUpperCase();
+        var wordProArray = upper.split(" ");
+        var wordProLen = wordProArray.length;
+        wordProArray.sort();
+        //document.write(wordProLen);
+
+        var final = "";
+        var counter = 1;
+        var wordIn = "";
+        var wordOut = "";
+
+
+        for(k = 0; k < wordProLen; k++){
+                if (wordProArray[k] == wordProArray[k + 1]) {
+                    counter = counter + 1;
+                } else {
+                    final = final + wordProArray[k] + " " + counter + "<br>";
+                    counter = 1;
+                }
+            }
+
+        //document.write(counter);
+        document.getElementById("finish").innerHTML = final;
+
+    }
+
+
+
+</script>
+
+
+<form id="textForm">
+    <br>
+    <div id="instruct">In the following text box write a few sentences to find the word frequency.</div>
+    <br>
+    <br>
+
+    <div id="textInput" style="background-color:dimgrey; border-width: 5px; font-size:20px;"  contenteditable="true">The very good boy from up the street knows the very good boy from down the street.</div>
+    <br>
+    <br>
+    <div id="numOutput">Go ahead and push the button.</div>
+    <br>
+
+    <input type="button" value="Find Word Frequency" onclick="dictionary()">
+    <br>
+    <br>
+    </form>
+
+
+<p id="finish">Process Output.</p>
+
+</body>
+</html>

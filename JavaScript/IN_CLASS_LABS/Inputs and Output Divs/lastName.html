@@ -1,0 +1,25 @@
+<html>
+    <body>
+<script>
+    function lastName(){
+        var input = document.getElementById("inputField");
+        var output = document.getElementById("outputField");
+        var modVal = input.innerHTML.split(" ");
+        output.innerHTML = modVal[modVal.length-1];
+        alert((modVal))
+    }
+        
+    </script>
+        <form id="form">
+            <br>
+            <p>Enter A Last Name</p>
+            <div id="inputField" border=1 style="background-color: #B0BEC5" contenteditable="true"></div>
+            <br>
+            <input type="button" value="Get Last Name" onClick="lastName()">
+            <br>
+            <br>
+            <p>Last Name:</p>
+            <div id="outputField" border=1>HIT THE BUTTON!</div>
+        </form> 
+</body>
+</html>

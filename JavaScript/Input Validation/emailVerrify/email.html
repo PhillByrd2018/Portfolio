@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Email</title>
+    <style>
+        form{
+            text-align: center;
+            font-size: 25px;
+            background-color: orange;
+
+        }
+    </style>
+</head>
+
+
+
+<body>
+
+
+
+<script>
+    function emailCheck() {
+
+
+
+        var email = document.getElementById("userVal").innerHTML;
+        var findAt = email.indexOf("@");
+        var findPeriod = email.lastIndexOf(".");
+
+
+
+        if (findAt<1 || findPeriod<findAt+2 || findPeriod+2>=email.length) {
+            document.getElementById("finalCheck").innerHTML = "<img src=sadface.png height='30%' width='30%'>";
+        } else{
+            document.getElementById("finalCheck").innerHTML = "<img src=happyface.jpg height='50%' width='50%'>";
+        }
+
+        document.getElementById("finalCheck").innerHTML = text;
+    }
+</script>
+
+
+<form id="f1">
+
+    This Form will check your Email
+
+    <br><br>
+
+
+    <div id="userVal" style="background-color: firebrick;" contenteditable="true">
+        Give me an Email
+    </div>
+    <br><br>
+
+
+
+
+
+    <br><br>
+    <center><input type="button" value="Check Email" onClick="emailCheck()"></center>
+</form>
+<center><div id="finalCheck"></div></center>
+
+</body>
+
+</html>

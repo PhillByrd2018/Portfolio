@@ -1,0 +1,33 @@
+<html>
+
+<body>
+<script>
+
+function fun(){
+
+var output = document.getElementById("outputdiv");
+var input = document.getElementById("inputdiv");
+output.innerHTML = output.innerHTML + input.innerHTML;
+
+}
+
+</script>
+
+<form id="f1">
+
+This is my favorite form ever!<br><br>
+
+<div id="inputdiv" style="background-color: red;" contenteditable="true"></div>
+
+<br><br>
+
+<div id="outputdiv" border = 1 style="background-color: #EEEEEE;">This is my output div!!</div>
+
+<br><br>
+
+<input type="button" value="Run Function" onClick="fun()">
+
+</form>
+
+</body>
+</html>

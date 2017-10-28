@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 03</title>
+
+    <style>
+        nav{
+            display: inline;
+            font-size: 30px;
+        }
+        nav a{
+        }
+        #Tiny{
+            visibility: hidden;
+        }
+        header{
+            font-size: 50px;
+            text-align: center;
+        }
+        body{
+            background-color: #CCCCCC;
+        }
+        #DropDown{
+            visibility: hidden;
+        }
+        .DropDown-Content a{
+            display: block;
+            background-color: darkcyan;
+            max-width: 100px;
+            line-height: 145%;
+
+        }
+        .DropDown{
+            float: right;
+        }
+        p{
+            text-align: center;
+            font-size: 18px;
+
+        }
+
+
+
+
+
+
+    </style>
+</head>
+
+
+<body>
+
+<header>Hello This is my Special Page for CSCI 215</header>
+
+
+
+    <div id="Original">
+        <nav>
+            <a href="">Home</a>
+            <a href="">Page 1</a>
+            <a href="">Page 2</a>
+            <a href="">Page 3</a>
+        </nav>
+
+
+    </div>
+
+
+    <div id="Tiny" class="DropDown">
+        <img onClick="run()" id="navPic" src="images/navBar.jpg" alt="Nav Icon" width="100" height="100">
+        <div id="DropDown" class="DropDown-Content">
+            <nav>
+                <a href="">Home</a>
+                <a href="">Page 1</a>
+                <a href="">Page 2</a>
+                <a href="">Page 3</a>
+            </nav>
+        </div>
+    </div>
+
+<p>I really love my CSCI 215 class. I am learning so much and it is awesome.</p>
+<script>
+
+
+    var w = window.innerWidth;
+
+
+    window.onresize= function goAway() {
+        if (w < 1000) {
+            document.getElementById("Original").style.visibility = "hidden";
+            document.getElementById("Tiny").style.visibility = "visible";
+
+        }
+    }
+
+    function run() {
+
+        document.getElementById("DropDown").style.visibility = "visible";
+
+    }
+
+
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<html>
+
+<body>
+<script>
+	// Written by Sebastian van Delden, CSCI 215
+	
+	var low = 1, high = 1000;
+	var middle;
+	
+    function guess(){
+		var output = document.getElementById("outputField");
+		var input = document.getElementById("inputField");	
+
+		if(input.innerHTML == "higher"){
+			low = middle;
+		}else if(input.innerHTML == "lower"){
+			high = middle;
+		}
+		middle = Math.floor((low+high)/2);
+		
+    	if(input.innerHTML == "yes"){
+			output.innerHTML = "It's magic!!! :)";
+		}else{
+			output.innerHTML = "Is your number " + middle + "?<br>If yes, please type in yes. If not, please type in higher or lower.<br>Then press Play Guessing Game. ";
+		}
+	}
+        
+    </script>
+        <form id="form">
+            <br>
+            <p>Think of a number.... Got it?? Press the "Play Guessing Game" button when ready. (I bet I can guess your number in under 10 guesses!)</p>
+			<input type="button" value="Play Guessing Game" onClick="guess()">
+            <div id="outputField" ></div>
+            Enter your Input here:<div id="inputField" style="background-color: #CCCCCC; width: 100px;" contenteditable="true"></div>
+            <br>
+
+            <br>
+            <br>
+        </form> 
+</body>
+</html>

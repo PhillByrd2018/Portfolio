@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Picture Assignment</title>
+    <style>
+    header{
+    text-align: center;
+    font-size: 25px;
+    background-color: tomato;
+
+    }
+    h3{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    }
+    </style>
+</head>
+
+
+<header>
+    This page is all about Tacos and those that love them.
+    <br>
+    <br>
+</header>
+<br>
+<h3>Click the Button or refresh the Page for more Tacos.</h3>
+<br>
+
+
+
+
+
+<body>
+<center><img src="" alt="picDisplay" id="centerPic"></center>
+<script>
+
+
+
+
+
+
+function pickTaco(){
+    var Taco = ["Taco01.jpg", "Taco02.jpg", "Taco03.jpg", "Taco04.jpg", "Taco05.jpg"];
+    var number = Math.floor(Math.random()*Taco.length);
+
+    document.getElementById("centerPic").src= Taco[number];
+
+    //document.write('<img src="'+Taco[number]+'"border=0>');//
+    //document.write(number);
+}
+pickTaco()
+
+</script>
+<br>
+<br>
+<br>
+<center><input type="button" value="More Tacos" onclick="pickTaco()"></center>
+<br>
+<br>
+</body>
+</html>
