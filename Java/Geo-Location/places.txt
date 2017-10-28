@@ -1,0 +1,29 @@
+The Macintosh
+479 King Street, Charleston
+Restaurant, point_of_interest
+32.789463
+-79.938853
+
+Charleston City Market
+188 Meeting Street, Charleston
+Market, point_of_interest
+32.781070
+-79.927836
+
+Marion Square
+329 Meeting Street, Charleston
+City Square, point_of_interest
+32.786866
+-79.935685
+
+White Point Garden
+2 Murray boulevard, Charleston
+Park, point_of_interest
+32.769934
+-79.930385
+
+5Church Charleston
+32 N Market St, Charleston
+Restaurant, point_of_interest
+32.781282
+-79.927796
