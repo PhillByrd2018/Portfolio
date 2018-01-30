@@ -1,0 +1,133 @@
+[28-Oct-2017 19:55:38 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/phill664/public_html/login_info.php on line 10
+[28-Oct-2017 19:56:10 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/phill664/public_html/login_info.php on line 10
+[28-Oct-2017 19:57:23 CST6CDT] PHP Parse error:  syntax error, unexpected ''Hello, Wor;' (T_ENCAPSED_AND_WHITESPACE) in /home/phill664/public_html/login_info.php on line 10
+[28-Oct-2017 20:45:30 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function myquery() in /home/phill664/public_html/addUser.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/phill664/public_html/addUser.php on line 8
+[29-Oct-2017 10:47:19 CST6CDT] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/phill664/public_html/userLogin.php on line 4
+[29-Oct-2017 10:48:29 CST6CDT] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/phill664/public_html/userLogin.php on line 4
+[29-Oct-2017 10:48:52 CST6CDT] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/phill664/public_html/userLogin.php on line 4
+[29-Oct-2017 10:49:14 CST6CDT] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/phill664/public_html/userLogin.php on line 4
+[29-Oct-2017 10:49:17 CST6CDT] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/phill664/public_html/userLogin.php on line 4
+[29-Oct-2017 10:49:42 CST6CDT] PHP Parse error:  syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING) in /home/phill664/public_html/userLogin.php on line 4
+[29-Oct-2017 10:49:46 CST6CDT] PHP Parse error:  syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING) in /home/phill664/public_html/userLogin.php on line 4
+[29-Oct-2017 11:07:43 CST6CDT] PHP Parse error:  syntax error, unexpected '=' in /home/phill664/public_html/userLogin.php on line 30
+[29-Oct-2017 11:08:05 CST6CDT] PHP Parse error:  syntax error, unexpected '=' in /home/phill664/public_html/userLogin.php on line 30
+[29-Oct-2017 11:24:08 CST6CDT] PHP Parse error:  syntax error, unexpected ''>Del</a> "'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/phill664/public_html/database.php on line 30
+[29-Oct-2017 11:25:12 CST6CDT] PHP Parse error:  syntax error, unexpected ''>Del</a> ";' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/phill664/public_html/database.php on line 31
+[29-Oct-2017 11:25:49 CST6CDT] PHP Parse error:  syntax error, unexpected ''>Del</a> "'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/phill664/public_html/database.php on line 30
+[29-Oct-2017 11:27:22 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/phill664/public_html/database.php on line 30
+[29-Oct-2017 11:29:02 CST6CDT] PHP Parse error:  syntax error, unexpected ''>Del</a>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/phill664/public_html/database.php on line 30
+[31-Oct-2017 09:44:35 CST6CDT] PHP Parse error:  syntax error, unexpected '$_REQUEST' (T_VARIABLE), expecting ',' or ';' in /home/phill664/public_html/addUser.php on line 20
+[31-Oct-2017 10:03:28 CST6CDT] PHP Parse error:  syntax error, unexpected 'DeleteDeceasedCLT' (T_STRING), expecting ',' or ';' in /home/phill664/public_html/database.php on line 33
+[01-Nov-2017 09:33:40 CST6CDT] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/phill664/public_html/DeleteDeceasedSRV.php on line 4
+[01-Nov-2017 09:36:56 CST6CDT] PHP Parse error:  syntax error, unexpected '' . $_REQUEST["id"] . "'' (T_CONSTANT_ENCAPSED_STRING) in /home/phill664/public_html/DeleteDeceasedSRV.php on line 4
+[01-Nov-2017 09:38:24 CST6CDT] PHP Parse error:  syntax error, unexpected '' . $_REQUEST["id"] . "'' (T_CONSTANT_ENCAPSED_STRING) in /home/phill664/public_html/DeleteDeceasedSRV.php on line 4
+[01-Nov-2017 09:38:41 CST6CDT] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/phill664/public_html/DeleteDeceasedSRV.php on line 4
+[01-Nov-2017 09:54:23 CST6CDT] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING) in /home/phill664/public_html/DeleteDeceasedSRV.php on line 4
+[01-Nov-2017 09:59:25 CST6CDT] PHP Parse error:  syntax error, unexpected '''' (T_CONSTANT_ENCAPSED_STRING) in /home/phill664/public_html/DeleteDeceasedSRV.php on line 4
+[01-Nov-2017 13:33:54 CST6CDT] PHP Parse error:  syntax error, unexpected ''" ><button>DELETE</button></a' (T_ENCAPSED_AND_WHITESPACE) in /home/phill664/public_html/DeleteDeceasedCLT.php on line 46
+[01-Nov-2017 13:34:18 CST6CDT] PHP Parse error:  syntax error, unexpected ''" ><button>DELETE</button></a' (T_ENCAPSED_AND_WHITESPACE) in /home/phill664/public_html/DeleteDeceasedCLT.php on line 46
+[01-Nov-2017 13:34:19 CST6CDT] PHP Parse error:  syntax error, unexpected ''" ><button>DELETE</button></a' (T_ENCAPSED_AND_WHITESPACE) in /home/phill664/public_html/DeleteDeceasedCLT.php on line 46
+[01-Nov-2017 13:34:23 CST6CDT] PHP Parse error:  syntax error, unexpected ''" ><button>DELETE</button></a' (T_ENCAPSED_AND_WHITESPACE) in /home/phill664/public_html/DeleteDeceasedCLT.php on line 46
+[08-Nov-2017 19:29:18 CST6CDT] PHP Fatal error:  Cannot redeclare myquery() (previously declared in /home/phill664/public_html/dbconnect.php:3) in /home/phill664/public_html/dbconnect.php on line 3
+[11-Nov-2017 09:20:53 CST6CDT] PHP Fatal error:  Cannot redeclare myquery() (previously declared in /home/phill664/public_html/dbconnect.php:3) in /home/phill664/public_html/dbconnect.php on line 3
+[11-Nov-2017 09:41:38 CST6CDT] PHP Parse error:  syntax error, unexpected 'ID' (T_STRING), expecting ',' or ';' in /home/phill664/public_html/addNextofKinCLT.php on line 2
+[11-Nov-2017 09:43:06 CST6CDT] PHP Parse error:  syntax error, unexpected 'database' (T_STRING), expecting ',' or ';' in /home/phill664/public_html/addDeadPersonSRV.php on line 57
+[11-Nov-2017 09:44:14 CST6CDT] PHP Parse error:  syntax error, unexpected 'database' (T_STRING), expecting ',' or ';' in /home/phill664/public_html/addDeadPersonSRV.php on line 57
+[11-Nov-2017 09:44:15 CST6CDT] PHP Parse error:  syntax error, unexpected 'database' (T_STRING), expecting ',' or ';' in /home/phill664/public_html/addDeadPersonSRV.php on line 57
+[11-Nov-2017 09:44:41 CST6CDT] PHP Parse error:  syntax error, unexpected 'database' (T_STRING), expecting ',' or ';' in /home/phill664/public_html/addDeadPersonSRV.php on line 57
+[11-Nov-2017 09:44:43 CST6CDT] PHP Parse error:  syntax error, unexpected 'database' (T_STRING), expecting ',' or ';' in /home/phill664/public_html/addDeadPersonSRV.php on line 57
+[11-Nov-2017 09:44:44 CST6CDT] PHP Parse error:  syntax error, unexpected 'database' (T_STRING), expecting ',' or ';' in /home/phill664/public_html/addDeadPersonSRV.php on line 57
+[11-Nov-2017 10:18:29 CST6CDT] PHP Parse error:  syntax error, unexpected 'number' (T_STRING), expecting ',' or ';' in /home/phill664/public_html/addNextofKinCLT.php on line 12
+[11-Nov-2017 10:18:49 CST6CDT] PHP Parse error:  syntax error, unexpected 'number' (T_STRING), expecting ',' or ';' in /home/phill664/public_html/addNextofKinCLT.php on line 12
+[11-Nov-2017 10:18:51 CST6CDT] PHP Parse error:  syntax error, unexpected 'number' (T_STRING), expecting ',' or ';' in /home/phill664/public_html/addNextofKinCLT.php on line 12
+[12-Nov-2017 22:02:16 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function myquery() in /home/phill664/public_html/Services_RenderedSRV.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/phill664/public_html/Services_RenderedSRV.php on line 16
+[13-Nov-2017 08:49:51 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function myquery() in /home/phill664/public_html/Services_RenderedSRV.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/phill664/public_html/Services_RenderedSRV.php on line 16
+[15-Nov-2017 14:05:47 CST6CDT] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/phill664/public_html/Services_RenderedSRV.php on line 69
+[15-Nov-2017 14:06:15 CST6CDT] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/phill664/public_html/Services_RenderedSRV.php on line 69
+[15-Nov-2017 14:06:17 CST6CDT] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/phill664/public_html/Services_RenderedSRV.php on line 69
+[15-Nov-2017 14:06:40 CST6CDT] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/phill664/public_html/Services_RenderedSRV.php on line 67
+[15-Nov-2017 14:06:41 CST6CDT] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/phill664/public_html/Services_RenderedSRV.php on line 67
+[15-Nov-2017 14:18:14 CST6CDT] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/phill664/public_html/Services_RenderedSRV.php on line 75
+[15-Nov-2017 14:18:37 CST6CDT] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/phill664/public_html/Services_RenderedSRV.php on line 75
+[15-Nov-2017 14:22:25 CST6CDT] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/phill664/public_html/Services_RenderedSRV.php on line 76
+[15-Nov-2017 14:27:45 CST6CDT] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/phill664/public_html/Services_RenderedSRV.php on line 76
+[15-Nov-2017 14:30:04 CST6CDT] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/phill664/public_html/Services_RenderedSRV.php on line 76
+[15-Nov-2017 14:39:38 CST6CDT] PHP Parse error:  syntax error, unexpected '$Amt' (T_VARIABLE) in /home/phill664/public_html/Services_RenderedSRV.php on line 77
+[15-Nov-2017 14:39:54 CST6CDT] PHP Parse error:  syntax error, unexpected '?>', expecting variable (T_VARIABLE) or '{' or '$' in /home/phill664/public_html/Services_RenderedSRV.php on line 85
+[19-Nov-2017 10:13:46 CST6CDT] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/phill664/public_html/addDeadPersonSRV.php on line 79
+[19-Nov-2017 20:06:17 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/phill664/public_html/UpdateBal.php on line 41
+[19-Nov-2017 20:11:00 CST6CDT] PHP Parse error:  syntax error, unexpected 'Balances' (T_STRING) in /home/phill664/public_html/UpdateBal.php on line 43
+[19-Nov-2017 20:11:33 CST6CDT] PHP Parse error:  syntax error, unexpected '>' in /home/phill664/public_html/UpdateBal.php on line 51
+[19-Nov-2017 20:29:35 CST6CDT] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/phill664/public_html/UpdateBal.php on line 54
+[19-Nov-2017 20:29:49 CST6CDT] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/phill664/public_html/UpdateBal.php on line 54
+[19-Nov-2017 20:30:54 CST6CDT] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/phill664/public_html/UpdateBal.php on line 54
+[19-Nov-2017 20:52:22 CST6CDT] PHP Parse error:  syntax error, unexpected 'Balances' (T_STRING) in /home/phill664/public_html/UpdateBal.php on line 49
+[20-Nov-2017 10:30:19 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/phill664/public_html/UpdateBal.php:107
+Stack trace:
+#0 {main}
+  thrown in /home/phill664/public_html/UpdateBal.php on line 107
+[20-Nov-2017 10:38:11 CST6CDT] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/phill664/public_html/UpdateBal.php on line 106
+[20-Nov-2017 18:32:53 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function myquery() in /home/phill664/public_html/Report.php:89
+Stack trace:
+#0 {main}
+  thrown in /home/phill664/public_html/Report.php on line 89
+[20-Nov-2017 18:33:31 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function myquery() in /home/phill664/public_html/Report.php:89
+Stack trace:
+#0 {main}
+  thrown in /home/phill664/public_html/Report.php on line 89
+[20-Nov-2017 18:34:33 CST6CDT] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/phill664/public_html/Report.php on line 91
+[20-Nov-2017 18:35:55 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/phill664/public_html/Report.php:92
+Stack trace:
+#0 {main}
+  thrown in /home/phill664/public_html/Report.php on line 92
+[20-Nov-2017 18:35:56 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/phill664/public_html/Report.php:92
+Stack trace:
+#0 {main}
+  thrown in /home/phill664/public_html/Report.php on line 92
+[20-Nov-2017 18:39:32 CST6CDT] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/phill664/public_html/Report.php:94
+Stack trace:
+#0 {main}
+  thrown in /home/phill664/public_html/Report.php on line 94
+[20-Nov-2017 18:42:37 CST6CDT] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /home/phill664/public_html/Report.php on line 93
+[20-Nov-2017 18:42:49 CST6CDT] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/phill664/public_html/Report.php:92
+Stack trace:
+#0 {main}
+  thrown in /home/phill664/public_html/Report.php on line 92
+[20-Nov-2017 18:43:11 CST6CDT] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/phill664/public_html/Report.php:96
+Stack trace:
+#0 {main}
+  thrown in /home/phill664/public_html/Report.php on line 96
+[20-Nov-2017 19:14:37 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/phill664/public_html/Report.php:93
+Stack trace:
+#0 {main}
+  thrown in /home/phill664/public_html/Report.php on line 93
+[20-Nov-2017 19:15:05 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/phill664/public_html/Report.php:93
+Stack trace:
+#0 {main}
+  thrown in /home/phill664/public_html/Report.php on line 93
+[20-Nov-2017 19:15:07 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/phill664/public_html/Report.php:93
+Stack trace:
+#0 {main}
+  thrown in /home/phill664/public_html/Report.php on line 93
+[24-Nov-2017 11:27:11 CST6CDT] PHP Fatal error:  Cannot redeclare myquery() (previously declared in /home/phill664/public_html/dbconnect.php:3) in /home/phill664/public_html/dbconnect.php on line 3
+[24-Nov-2017 11:27:56 CST6CDT] PHP Fatal error:  Cannot redeclare myquery() (previously declared in /home/phill664/public_html/dbconnect.php:3) in /home/phill664/public_html/dbconnect.php on line 3
+[24-Nov-2017 11:27:58 CST6CDT] PHP Fatal error:  Cannot redeclare myquery() (previously declared in /home/phill664/public_html/dbconnect.php:3) in /home/phill664/public_html/dbconnect.php on line 3
+[24-Nov-2017 11:28:32 CST6CDT] PHP Fatal error:  Cannot redeclare myquery() (previously declared in /home/phill664/public_html/dbconnect.php:3) in /home/phill664/public_html/dbconnect.php on line 3
+[24-Nov-2017 11:30:23 CST6CDT] PHP Fatal error:  Cannot redeclare query() (previously declared in /home/phill664/public_html/dbconnect.php:13) in /home/phill664/public_html/dbconnect.php on line 13
+[24-Nov-2017 11:30:40 CST6CDT] PHP Fatal error:  Cannot redeclare query() (previously declared in /home/phill664/public_html/dbconnect.php:13) in /home/phill664/public_html/dbconnect.php on line 13
+[24-Nov-2017 11:30:42 CST6CDT] PHP Fatal error:  Cannot redeclare query() (previously declared in /home/phill664/public_html/dbconnect.php:13) in /home/phill664/public_html/dbconnect.php on line 13
+[24-Nov-2017 11:31:13 CST6CDT] PHP Fatal error:  Cannot redeclare query() (previously declared in /home/phill664/public_html/dbconnect.php:13) in /home/phill664/public_html/dbconnect.php on line 13
+[24-Nov-2017 11:31:27 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/phill664/public_html/Report.php:114
+Stack trace:
+#0 {main}
+  thrown in /home/phill664/public_html/Report.php on line 114
+[24-Nov-2017 14:21:50 CST6CDT] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/phill664/public_html/UpdateBal.php on line 120
