@@ -1,0 +1,17 @@
+127.0.0.1 - - [02/Nov/2017:11:53:48 -0400] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [02/Nov/2017:11:53:48 -0400] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [02/Nov/2017:11:53:48 -0400] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [02/Nov/2017:11:53:48 -0400] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - admin [02/Nov/2017:11:53:49 -0400] "GET /manager/text/list HTTP/1.1" 200 724
+127.0.0.1 - admin [02/Nov/2017:11:53:49 -0400] "GET /manager/text/list HTTP/1.1" 200 724
+127.0.0.1 - admin [02/Nov/2017:11:53:51 -0400] "GET /manager/text/deploy?config=file%3A%2FC%3A%2FUsers%2FPbyrd%2FAppData%2FLocal%2FTemp%2Fcontext3897321359250438004.xml&path=/ch13_ex1_email_sol HTTP/1.1" 200 74
+127.0.0.1 - admin [02/Nov/2017:11:53:51 -0400] "GET /manager/text/start?path=/ch13_ex1_email_sol HTTP/1.1" 200 73
+127.0.0.1 - - [02/Nov/2017:11:53:52 -0400] "GET /ch13_ex1_email_sol HTTP/1.1" 302 -
+127.0.0.1 - - [02/Nov/2017:11:53:53 -0400] "GET /ch13_ex1_email_sol/ HTTP/1.1" 200 958
+127.0.0.1 - - [02/Nov/2017:11:53:53 -0400] "GET /ch13_ex1_email_sol/styles/main.css HTTP/1.1" 200 814
+127.0.0.1 - - [02/Nov/2017:11:53:53 -0400] "GET /favicon.ico HTTP/1.1" 200 21630
+127.0.0.1 - - [02/Nov/2017:11:54:13 -0400] "POST /ch13_ex1_email_sol/emailList HTTP/1.1" 200 775
+127.0.0.1 - - [02/Nov/2017:11:54:13 -0400] "GET /ch13_ex1_email_sol/styles/main.css HTTP/1.1" 304 -
+127.0.0.1 - - [02/Nov/2017:12:35:31 -0400] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [02/Nov/2017:12:35:31 -0400] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [02/Nov/2017:12:35:31 -0400] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -

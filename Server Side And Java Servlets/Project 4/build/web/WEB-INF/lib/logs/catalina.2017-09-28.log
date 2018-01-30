@@ -1,0 +1,225 @@
+28-Sep-2017 10:09:32.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.46
+28-Sep-2017 10:09:32.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 10 2017 10:10:31 UTC
+28-Sep-2017 10:09:32.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.46.0
+28-Sep-2017 10:09:32.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Sep-2017 10:09:32.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Sep-2017 10:09:32.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Sep-2017 10:09:32.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_144\jre
+28-Sep-2017 10:09:32.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+28-Sep-2017 10:09:32.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Sep-2017 10:09:32.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\tomcat-8.0
+28-Sep-2017 10:09:32.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\tomcat-8.0
+28-Sep-2017 10:09:32.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\tomcat-8.0\conf\logging.properties
+28-Sep-2017 10:09:32.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Sep-2017 10:09:32.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|WINDOWS-A3P9Q8H
+28-Sep-2017 10:09:32.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Sep-2017 10:09:32.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Sep-2017 10:09:32.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\tomcat-8.0\endorsed
+28-Sep-2017 10:09:32.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\tomcat-8.0
+28-Sep-2017 10:09:32.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\tomcat-8.0
+28-Sep-2017 10:09:32.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\tomcat-8.0\temp
+28-Sep-2017 10:09:32.929 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.12 using APR version 1.5.2.
+28-Sep-2017 10:09:32.929 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Sep-2017 10:09:33.483 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2k  26 Jan 2017)
+28-Sep-2017 10:09:33.661 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+28-Sep-2017 10:09:33.677 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+28-Sep-2017 10:09:33.678 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1171 ms
+28-Sep-2017 10:09:33.730 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+28-Sep-2017 10:09:33.730 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.46
+28-Sep-2017 10:09:33.762 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\docs
+28-Sep-2017 10:09:34.113 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\docs has finished in 351 ms
+28-Sep-2017 10:09:34.113 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\examples
+28-Sep-2017 10:09:34.482 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\examples has finished in 369 ms
+28-Sep-2017 10:09:34.482 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\host-manager
+28-Sep-2017 10:09:34.513 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\host-manager has finished in 31 ms
+28-Sep-2017 10:09:34.513 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\manager
+28-Sep-2017 10:09:34.551 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\manager has finished in 38 ms
+28-Sep-2017 10:09:34.551 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\ROOT
+28-Sep-2017 10:09:34.582 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\ROOT has finished in 31 ms
+28-Sep-2017 10:09:34.582 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+28-Sep-2017 10:09:34.598 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+28-Sep-2017 10:09:34.614 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 937 ms
+28-Sep-2017 10:09:34.937 INFO [http-apr-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\tomcat-8.0\conf\Catalina\localhost\Project_1.xml
+28-Sep-2017 10:09:35.137 INFO [http-apr-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Sep-2017 10:09:35.168 INFO [http-apr-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\tomcat-8.0\conf\Catalina\localhost\Project_1.xml has finished in 231 ms
+28-Sep-2017 10:09:35.184 INFO [http-apr-8080-exec-2] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Project_1]] after start() had already been called. The second call will be ignored.
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.46
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 10 2017 10:10:31 UTC
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.46.0
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_144\jre
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\tomcat-8.0
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\tomcat-8.0
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\tomcat-8.0\conf\logging.properties
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|WINDOWS-A3P9Q8H
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\tomcat-8.0\endorsed
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\tomcat-8.0
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\tomcat-8.0
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\tomcat-8.0\temp
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.12 using APR version 1.5.2.
+28-Sep-2017 11:25:51.125 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Sep-2017 11:25:52.034 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2k  26 Jan 2017)
+28-Sep-2017 11:25:52.322 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+28-Sep-2017 11:25:52.354 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+28-Sep-2017 11:25:52.358 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1656 ms
+28-Sep-2017 11:25:52.502 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+28-Sep-2017 11:25:52.502 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.46
+28-Sep-2017 11:25:52.538 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\tomcat-8.0\conf\Catalina\localhost\Project_1.xml
+28-Sep-2017 11:25:53.548 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Sep-2017 11:25:53.676 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\tomcat-8.0\conf\Catalina\localhost\Project_1.xml has finished in 1,142 ms
+28-Sep-2017 11:25:53.676 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\docs
+28-Sep-2017 11:25:53.716 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\docs has finished in 40 ms
+28-Sep-2017 11:25:53.716 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\examples
+28-Sep-2017 11:25:54.148 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\examples has finished in 432 ms
+28-Sep-2017 11:25:54.148 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\host-manager
+28-Sep-2017 11:25:54.188 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\host-manager has finished in 40 ms
+28-Sep-2017 11:25:54.188 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\manager
+28-Sep-2017 11:25:54.237 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\manager has finished in 49 ms
+28-Sep-2017 11:25:54.237 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\ROOT
+28-Sep-2017 11:25:54.285 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\ROOT has finished in 48 ms
+28-Sep-2017 11:25:54.289 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+28-Sep-2017 11:25:54.305 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+28-Sep-2017 11:25:54.313 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1954 ms
+28-Sep-2017 11:25:54.633 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 11:25:54.849 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 11:29:48.925 INFO [http-apr-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 11:29:49.253 INFO [http-apr-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 11:30:19.196 INFO [http-apr-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 11:30:19.368 INFO [http-apr-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 11:31:06.179 INFO [http-apr-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 11:31:06.304 INFO [http-apr-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 11:33:08.798 INFO [http-apr-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 11:33:08.955 INFO [http-apr-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 11:40:05.938 INFO [http-apr-8080-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 11:40:06.079 INFO [http-apr-8080-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 11:40:30.278 INFO [http-apr-8080-exec-38] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 11:40:30.418 INFO [http-apr-8080-exec-38] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 11:40:52.831 INFO [http-apr-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 11:40:52.940 INFO [http-apr-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 11:42:22.634 INFO [http-apr-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 11:42:22.791 INFO [http-apr-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 11:43:01.974 INFO [http-apr-8080-exec-46] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 11:43:02.177 INFO [http-apr-8080-exec-46] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 11:47:18.359 INFO [http-apr-8080-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 11:47:18.515 INFO [http-apr-8080-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 11:48:36.016 INFO [http-apr-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 11:48:36.219 INFO [http-apr-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 11:48:59.065 INFO [http-apr-8080-exec-64] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 11:48:59.284 INFO [http-apr-8080-exec-64] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 11:49:58.935 INFO [http-apr-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 11:49:59.248 INFO [http-apr-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 11:52:03.242 INFO [http-apr-8080-exec-71] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 11:52:03.352 INFO [http-apr-8080-exec-71] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 12:16:22.696 INFO [http-apr-8080-exec-79] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 12:16:22.805 INFO [http-apr-8080-exec-79] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 12:33:21.998 INFO [http-apr-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 12:33:22.123 INFO [http-apr-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 14:14:30.472 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Sep-2017 14:14:30.472 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+28-Sep-2017 14:14:30.535 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+28-Sep-2017 14:14:30.597 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+28-Sep-2017 14:14:30.644 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+28-Sep-2017 14:14:30.707 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+28-Sep-2017 14:14:30.769 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+28-Sep-2017 14:14:30.769 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+28-Sep-2017 15:49:51.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.46
+28-Sep-2017 15:49:51.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 10 2017 10:10:31 UTC
+28-Sep-2017 15:49:51.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.46.0
+28-Sep-2017 15:49:51.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Sep-2017 15:49:51.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Sep-2017 15:49:51.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Sep-2017 15:49:51.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_144\jre
+28-Sep-2017 15:49:51.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+28-Sep-2017 15:49:51.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Sep-2017 15:49:51.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\tomcat-8.0
+28-Sep-2017 15:49:51.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\tomcat-8.0
+28-Sep-2017 15:49:51.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\tomcat-8.0\conf\logging.properties
+28-Sep-2017 15:49:51.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Sep-2017 15:49:51.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|WINDOWS-A3P9Q8H
+28-Sep-2017 15:49:51.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Sep-2017 15:49:51.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Sep-2017 15:49:51.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\tomcat-8.0\endorsed
+28-Sep-2017 15:49:51.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\tomcat-8.0
+28-Sep-2017 15:49:51.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\tomcat-8.0
+28-Sep-2017 15:49:51.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\tomcat-8.0\temp
+28-Sep-2017 15:49:51.232 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.12 using APR version 1.5.2.
+28-Sep-2017 15:49:51.232 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Sep-2017 15:49:51.748 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2k  26 Jan 2017)
+28-Sep-2017 15:49:51.873 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+28-Sep-2017 15:49:51.888 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+28-Sep-2017 15:49:51.888 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1009 ms
+28-Sep-2017 15:49:51.920 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+28-Sep-2017 15:49:51.920 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.46
+28-Sep-2017 15:49:51.920 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\tomcat-8.0\conf\Catalina\localhost\Project_1.xml
+28-Sep-2017 15:49:52.404 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Sep-2017 15:49:52.529 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\tomcat-8.0\conf\Catalina\localhost\Project_1.xml has finished in 609 ms
+28-Sep-2017 15:49:52.529 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\docs
+28-Sep-2017 15:49:52.576 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\docs has finished in 47 ms
+28-Sep-2017 15:49:52.576 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\examples
+28-Sep-2017 15:49:52.889 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\examples has finished in 313 ms
+28-Sep-2017 15:49:52.889 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\host-manager
+28-Sep-2017 15:49:52.935 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\host-manager has finished in 46 ms
+28-Sep-2017 15:49:52.935 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\manager
+28-Sep-2017 15:49:52.982 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\manager has finished in 47 ms
+28-Sep-2017 15:49:52.982 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\ROOT
+28-Sep-2017 15:49:52.998 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\ROOT has finished in 16 ms
+28-Sep-2017 15:49:52.998 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+28-Sep-2017 15:49:53.014 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+28-Sep-2017 15:49:53.029 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1137 ms
+28-Sep-2017 15:55:00.755 INFO [http-apr-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 15:55:01.036 INFO [http-apr-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 15:57:08.703 INFO [http-apr-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 15:57:09.172 INFO [http-apr-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 15:59:39.832 INFO [http-apr-8080-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 15:59:39.973 INFO [http-apr-8080-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:00:32.524 INFO [http-apr-8080-exec-19] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:00:32.681 INFO [http-apr-8080-exec-19] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:10:50.825 INFO [http-apr-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:10:50.966 INFO [64] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:12:03.305 INFO [http-apr-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:12:03.415 INFO [http-apr-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:13:18.988 INFO [http-apr-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:13:19.191 INFO [http-apr-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:16:51.089 INFO [http-apr-8080-exec-44] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:16:51.230 INFO [http-apr-8080-exec-44] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:17:56.156 INFO [http-apr-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:17:56.281 INFO [http-apr-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:20:02.939 INFO [http-apr-8080-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:20:03.189 INFO [http-apr-8080-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:20:44.573 INFO [http-apr-8080-exec-56] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:20:44.760 INFO [http-apr-8080-exec-56] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:21:33.640 INFO [http-apr-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:21:33.796 INFO [http-apr-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:22:25.419 INFO [http-apr-8080-exec-56] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:22:25.528 INFO [http-apr-8080-exec-56] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:23:00.531 INFO [http-apr-8080-exec-61] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:23:01.015 INFO [http-apr-8080-exec-61] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:24:31.752 INFO [http-apr-8080-exec-72] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:24:31.877 INFO [http-apr-8080-exec-72] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:25:00.238 INFO [http-apr-8080-exec-61] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:25:00.332 INFO [http-apr-8080-exec-61] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:27:26.936 INFO [http-apr-8080-exec-80] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:27:27.046 INFO [http-apr-8080-exec-80] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:31:04.891 INFO [http-apr-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:31:05.016 INFO [http-apr-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:33:31.354 INFO [http-apr-8080-exec-99] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:33:31.464 INFO [http-apr-8080-exec-99] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:34:36.858 INFO [http-apr-8080-exec-106] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:34:36.999 INFO [http-apr-8080-exec-106] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:35:52.900 INFO [http-apr-8080-exec-105] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:35:53.041 INFO [http-apr-8080-exec-105] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:38:18.712 INFO [http-apr-8080-exec-118] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:38:18.837 INFO [http-apr-8080-exec-118] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:40:34.661 INFO [http-apr-8080-exec-127] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:40:34.770 INFO [http-apr-8080-exec-127] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:58:51.211 INFO [http-apr-8080-exec-137] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:58:51.321 INFO [http-apr-8080-exec-137] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed
+28-Sep-2017 16:59:31.503 INFO [http-apr-8080-exec-139] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] has started
+28-Sep-2017 16:59:31.628 INFO [http-apr-8080-exec-139] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project_1] is completed

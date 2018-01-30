@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee                          http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+   <security-role>
+        <description>service employees</description>
+        <role-name>service</role-name>
+    </security-role>
+    <security-role>
+        <description>system administrators</description>
+        <role-name>programmer</role-name>
+    </security-role>
+
+    <!-- Restrict access to all files in the /admin folder -->
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>Protected Area</web-resource-name>
+            <url-pattern>/admin/*</url-pattern>
+        </web-resource-collection>
+        <!-- Authorize the programmer and service roles -->
+        <auth-constraint>
+            <role-name>programmer</role-name>
+            <role-name>service</role-name>
+        </auth-constraint>
+        <user-data-constraint>
+            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+        </user-data-constraint>
+    </security-constraint>
+    
+    <!-- Use basic authentication -->
+    <login-config>
+        <auth-method>FORM</auth-method>
+        <form-login-config>
+            <form-login-page>/admin/login.html</form-login-page>
+            <form-error-page>/admin/login_error.html</form-error-page>    
+            
+        </form-login-config>
+    </login-config> 
+
+    
+    <servlet>
+        <servlet-name>ProductAdminController</servlet-name>
+        <servlet-class>music.admin.ProductAdminController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProductAdminController</servlet-name>
+        <url-pattern>/admin/productMaint</url-pattern>
+    </servlet-mapping>
+         <servlet>
+        <servlet-name>ProductDB</servlet-name>
+        <servlet-class>music.data.ProductDB</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProductDB</servlet-name>
+        <url-pattern>/ProductDB</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DBUtil</servlet-name>
+        <servlet-class>music.data.DBUtil</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DBUtil</servlet-name>
+        <url-pattern>/DBUtil</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <tracking-mode>COOKIE</tracking-mode>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

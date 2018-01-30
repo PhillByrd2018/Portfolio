@@ -1,0 +1,67 @@
+21-Nov-2017 11:34:43.814 WARNING [http-apr-8080-exec-29] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project5_Byrd] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+21-Nov-2017 11:34:44.314 INFO [http-apr-8080-exec-29] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Project5_Byrd]
+21-Nov-2017 11:34:44.376 INFO [http-apr-8080-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\tomcat-8.0\conf\Catalina\localhost\Project5_Byrd.xml
+21-Nov-2017 11:34:44.376 WARNING [http-apr-8080-exec-26] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+21-Nov-2017 11:34:44.376 WARNING [http-apr-8080-exec-26] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Context/Realm} Setting property 'debug' to '99' did not find a matching property.
+21-Nov-2017 11:34:46.111 WARNING [http-apr-8080-exec-26] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = murach Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+21-Nov-2017 11:34:46.111 WARNING [http-apr-8080-exec-26] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = murach Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+21-Nov-2017 11:34:46.111 WARNING [http-apr-8080-exec-26] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = murach Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+21-Nov-2017 11:34:46.142 INFO [http-apr-8080-exec-26] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Nov-2017 11:34:46.158 INFO [http-apr-8080-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\tomcat-8.0\conf\Catalina\localhost\Project5_Byrd.xml has finished in 1,782 ms
+21-Nov-2017 11:34:46.173 INFO [http-apr-8080-exec-30] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Project5_Byrd]] after start() had already been called. The second call will be ignored.
+21-Nov-2017 12:47:13.601 WARNING [http-apr-8080-exec-27] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project5_Byrd] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+21-Nov-2017 12:47:14.101 INFO [http-apr-8080-exec-27] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Project5_Byrd]
+21-Nov-2017 12:47:14.117 INFO [http-apr-8080-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\tomcat-8.0\conf\Catalina\localhost\Project5_Byrd.xml
+21-Nov-2017 12:47:14.117 WARNING [http-apr-8080-exec-30] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+21-Nov-2017 12:47:14.117 WARNING [http-apr-8080-exec-30] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Context/Realm} Setting property 'debug' to '99' did not find a matching property.
+21-Nov-2017 12:47:15.695 WARNING [http-apr-8080-exec-30] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = murach Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "100" for "maxActive" property, which is being ignored.
+21-Nov-2017 12:47:15.695 WARNING [http-apr-8080-exec-30] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = murach Property removeAbandoned is not used in DBCP2, use one or both of removeAbandonedOnBorrow or removeAbandonedOnMaintenance instead. Both have default value set to false. You have set value of "true" for "removeAbandoned" property, which is being ignored.
+21-Nov-2017 12:47:15.695 WARNING [http-apr-8080-exec-30] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = murach Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+21-Nov-2017 12:47:15.742 INFO [http-apr-8080-exec-30] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Nov-2017 12:47:15.773 INFO [http-apr-8080-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\tomcat-8.0\conf\Catalina\localhost\Project5_Byrd.xml has finished in 1,656 ms
+21-Nov-2017 12:47:15.773 INFO [http-apr-8080-exec-23] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Project5_Byrd]] after start() had already been called. The second call will be ignored.
+21-Nov-2017 13:34:47.319 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Nov-2017 13:34:47.319 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+21-Nov-2017 13:34:47.382 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8443"]
+21-Nov-2017 13:34:47.444 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+21-Nov-2017 13:34:47.507 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+21-Nov-2017 13:34:47.632 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project4_Byrd] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+21-Nov-2017 13:34:47.694 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project5_Byrd] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+21-Nov-2017 13:34:47.725 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project3_Byrd] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:41)
+21-Nov-2017 13:34:47.725 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+21-Nov-2017 13:34:47.788 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8443"]
+21-Nov-2017 13:34:47.788 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+21-Nov-2017 13:34:47.851 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+21-Nov-2017 13:34:47.851 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8443"]
+21-Nov-2017 13:34:47.851 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+21-Nov-2017 13:34:47.851 WARNING [main] org.apache.catalina.deploy.NamingResourcesImpl.cleanUp Failed to retrieve JNDI naming context for container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/productMaint4]] so no cleanup was performed for that container
+ javax.naming.NamingException: No naming context bound to this class loader
+	at org.apache.naming.ContextBindings.getClassLoader(ContextBindings.java:258)
+	at org.apache.catalina.deploy.NamingResourcesImpl.cleanUp(NamingResourcesImpl.java:992)
+	at org.apache.catalina.deploy.NamingResourcesImpl.stopInternal(NamingResourcesImpl.java:975)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5551)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:259)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:860)
+	at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:1040)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:292)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:860)
+	at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:1040)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:292)
+	at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:604)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:292)
+	at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:879)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:292)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:704)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:665)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:351)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+

@@ -1,0 +1,243 @@
+27-Sep-2017 08:13:55.720 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.46
+27-Sep-2017 08:13:55.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 10 2017 10:10:31 UTC
+27-Sep-2017 08:13:55.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.46.0
+27-Sep-2017 08:13:55.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Sep-2017 08:13:55.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Sep-2017 08:13:55.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Sep-2017 08:13:55.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_144\jre
+27-Sep-2017 08:13:55.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+27-Sep-2017 08:13:55.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Sep-2017 08:13:55.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\tomcat-8.0
+27-Sep-2017 08:13:55.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\tomcat-8.0
+27-Sep-2017 08:13:55.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\tomcat-8.0\conf\logging.properties
+27-Sep-2017 08:13:55.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Sep-2017 08:13:55.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|WINDOWS-A3P9Q8H
+27-Sep-2017 08:13:55.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Sep-2017 08:13:55.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Sep-2017 08:13:55.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\tomcat-8.0\endorsed
+27-Sep-2017 08:13:55.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\tomcat-8.0
+27-Sep-2017 08:13:55.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\tomcat-8.0
+27-Sep-2017 08:13:55.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\tomcat-8.0\temp
+27-Sep-2017 08:13:55.724 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.12 using APR version 1.5.2.
+27-Sep-2017 08:13:55.724 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+27-Sep-2017 08:13:56.271 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2k  26 Jan 2017)
+27-Sep-2017 08:13:56.403 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+27-Sep-2017 08:13:56.403 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+27-Sep-2017 08:13:56.403 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1033 ms
+27-Sep-2017 08:13:56.440 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+27-Sep-2017 08:13:56.440 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.46
+27-Sep-2017 08:13:56.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\tomcat-8.0\conf\Catalina\localhost\ch07_ex3_cart_sol.xml
+27-Sep-2017 08:13:56.972 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Sep-2017 08:13:57.126 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\tomcat-8.0\conf\Catalina\localhost\ch07_ex3_cart_sol.xml has finished in 671 ms
+27-Sep-2017 08:13:57.142 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\docs
+27-Sep-2017 08:13:57.173 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\docs has finished in 31 ms
+27-Sep-2017 08:13:57.173 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\examples
+27-Sep-2017 08:13:57.474 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\examples has finished in 301 ms
+27-Sep-2017 08:13:57.474 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\host-manager
+27-Sep-2017 08:13:57.527 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\host-manager has finished in 53 ms
+27-Sep-2017 08:13:57.527 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\manager
+27-Sep-2017 08:13:57.543 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\manager has finished in 16 ms
+27-Sep-2017 08:13:57.543 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\ROOT
+27-Sep-2017 08:13:57.590 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\ROOT has finished in 47 ms
+27-Sep-2017 08:13:57.605 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+27-Sep-2017 08:13:57.605 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+27-Sep-2017 08:13:57.625 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1209 ms
+27-Sep-2017 08:14:52.215 INFO [http-apr-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 08:14:52.431 INFO [http-apr-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 08:15:25.128 INFO [http-apr-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 08:15:25.329 INFO [http-apr-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 08:15:40.449 INFO [http-apr-8080-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 08:15:40.634 INFO [http-apr-8080-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 08:16:43.360 INFO [http-apr-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 08:16:43.517 INFO [http-apr-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 08:28:23.457 INFO [http-apr-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 08:28:23.664 INFO [http-apr-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 08:28:54.192 INFO [http-apr-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 08:28:54.330 INFO [http-apr-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 08:29:59.486 INFO [http-apr-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 08:29:59.656 INFO [http-apr-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 08:31:06.304 INFO [http-apr-8080-exec-39] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 08:31:06.442 INFO [http-apr-8080-exec-39] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 08:32:20.647 INFO [http-apr-8080-exec-43] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 08:32:20.848 INFO [http-apr-8080-exec-43] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 08:49:20.356 INFO [http-apr-8080-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 08:49:20.472 INFO [http-apr-8080-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 09:01:53.917 INFO [http-apr-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 09:01:54.057 INFO [http-apr-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 09:09:40.333 INFO [http-apr-8080-exec-75] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 09:09:40.464 INFO [http-apr-8080-exec-75] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 09:10:44.906 INFO [http-apr-8080-exec-80] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 09:10:45.028 INFO [http-apr-8080-exec-80] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 09:14:09.242 INFO [http-apr-8080-exec-88] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 09:14:09.374 INFO [http-apr-8080-exec-88] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 09:15:36.484 INFO [http-apr-8080-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 09:15:36.584 INFO [http-apr-8080-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 09:16:04.398 INFO [http-apr-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 09:16:04.608 INFO [http-apr-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 09:16:28.727 INFO [http-apr-8080-exec-88] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 09:16:28.859 INFO [http-apr-8080-exec-88] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 09:17:42.627 INFO [http-apr-8080-exec-105] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 09:17:42.743 INFO [http-apr-8080-exec-105] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 09:18:28.311 INFO [http-apr-8080-exec-102] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 09:18:28.446 INFO [http-apr-8080-exec-102] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 09:22:22.082 INFO [http-apr-8080-exec-115] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 09:22:22.198 INFO [http-apr-8080-exec-115] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 09:23:17.691 INFO [http-apr-8080-exec-119] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 09:23:17.813 INFO [http-apr-8080-exec-119] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 09:27:07.747 INFO [http-apr-8080-exec-128] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 09:27:07.852 INFO [http-apr-8080-exec-128] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 09:29:33.372 INFO [http-apr-8080-exec-137] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 09:29:33.509 INFO [http-apr-8080-exec-137] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 09:30:02.756 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Sep-2017 09:30:02.756 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+27-Sep-2017 09:30:02.756 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+27-Sep-2017 09:30:02.809 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+27-Sep-2017 09:30:02.824 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+27-Sep-2017 09:30:02.909 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+27-Sep-2017 09:30:02.973 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+27-Sep-2017 09:30:02.973 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+27-Sep-2017 10:50:02.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.46
+27-Sep-2017 10:50:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 10 2017 10:10:31 UTC
+27-Sep-2017 10:50:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.46.0
+27-Sep-2017 10:50:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Sep-2017 10:50:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Sep-2017 10:50:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Sep-2017 10:50:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_144\jre
+27-Sep-2017 10:50:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+27-Sep-2017 10:50:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Sep-2017 10:50:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\tomcat-8.0
+27-Sep-2017 10:50:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\tomcat-8.0
+27-Sep-2017 10:50:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\tomcat-8.0\conf\logging.properties
+27-Sep-2017 10:50:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Sep-2017 10:50:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|WINDOWS-A3P9Q8H
+27-Sep-2017 10:50:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Sep-2017 10:50:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Sep-2017 10:50:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\tomcat-8.0\endorsed
+27-Sep-2017 10:50:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\tomcat-8.0
+27-Sep-2017 10:50:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\tomcat-8.0
+27-Sep-2017 10:50:02.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\tomcat-8.0\temp
+27-Sep-2017 10:50:02.538 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.12 using APR version 1.5.2.
+27-Sep-2017 10:50:02.538 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+27-Sep-2017 10:50:03.070 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2k  26 Jan 2017)
+27-Sep-2017 10:50:03.207 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+27-Sep-2017 10:50:03.223 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+27-Sep-2017 10:50:03.223 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1037 ms
+27-Sep-2017 10:50:03.254 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+27-Sep-2017 10:50:03.254 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.46
+27-Sep-2017 10:50:03.254 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\tomcat-8.0\conf\Catalina\localhost\ch07_ex3_cart_sol.xml
+27-Sep-2017 10:50:03.793 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Sep-2017 10:50:03.965 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\tomcat-8.0\conf\Catalina\localhost\ch07_ex3_cart_sol.xml has finished in 711 ms
+27-Sep-2017 10:50:03.965 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\docs
+27-Sep-2017 10:50:04.016 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\docs has finished in 50 ms
+27-Sep-2017 10:50:04.016 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\examples
+27-Sep-2017 10:50:04.318 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\examples has finished in 302 ms
+27-Sep-2017 10:50:04.318 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\host-manager
+27-Sep-2017 10:50:04.350 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\host-manager has finished in 32 ms
+27-Sep-2017 10:50:04.350 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\manager
+27-Sep-2017 10:50:04.381 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\manager has finished in 31 ms
+27-Sep-2017 10:50:04.381 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\tomcat-8.0\webapps\ROOT
+27-Sep-2017 10:50:04.450 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\tomcat-8.0\webapps\ROOT has finished in 69 ms
+27-Sep-2017 10:50:04.450 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+27-Sep-2017 10:50:04.481 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+27-Sep-2017 10:50:04.481 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1259 ms
+27-Sep-2017 10:52:56.301 INFO [http-apr-8080-exec-6] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 10:52:56.455 INFO [22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 10:53:52.493 INFO [http-apr-8080-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 10:53:52.809 INFO [http-apr-8080-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 10:57:13.794 INFO [http-apr-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 10:57:14.000 INFO [http-apr-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 11:03:02.582 INFO [http-apr-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 11:03:02.731 INFO [63] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 14:54:06.631 INFO [http-apr-8080-exec-42] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 14:54:06.754 INFO [http-apr-8080-exec-42] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 14:59:48.072 INFO [http-apr-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 14:59:48.187 INFO [http-apr-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 15:03:59.654 INFO [http-apr-8080-exec-57] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 15:03:59.774 INFO [http-apr-8080-exec-57] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 15:33:31.779 INFO [http-apr-8080-exec-69] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 15:33:31.895 INFO [http-apr-8080-exec-69] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 15:39:57.932 INFO [http-apr-8080-exec-75] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 15:39:58.048 INFO [http-apr-8080-exec-75] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 15:51:28.998 INFO [http-apr-8080-exec-85] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 15:51:29.104 INFO [http-apr-8080-exec-85] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 16:03:42.240 INFO [http-apr-8080-exec-103] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 16:03:42.394 INFO [http-apr-8080-exec-103] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 16:09:17.407 INFO [http-apr-8080-exec-112] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 16:09:17.538 INFO [http-apr-8080-exec-112] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 16:11:56.409 INFO [http-apr-8080-exec-115] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 16:11:56.554 INFO [http-apr-8080-exec-115] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 16:12:45.640 INFO [http-apr-8080-exec-119] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 16:12:45.879 INFO [http-apr-8080-exec-119] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 16:14:34.084 INFO [http-apr-8080-exec-127] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 16:14:34.226 INFO [http-apr-8080-exec-127] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 16:16:01.052 INFO [http-apr-8080-exec-133] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 16:16:01.174 INFO [http-apr-8080-exec-133] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 16:23:14.861 INFO [http-apr-8080-exec-145] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 16:23:15.138 INFO [http-apr-8080-exec-145] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 16:25:38.704 INFO [http-apr-8080-exec-151] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 16:25:38.835 INFO [http-apr-8080-exec-151] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 16:34:20.003 INFO [http-apr-8080-exec-158] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 16:34:20.119 INFO [http-apr-8080-exec-158] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 16:36:34.765 INFO [http-apr-8080-exec-168] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 16:36:34.881 INFO [http-apr-8080-exec-168] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 16:54:09.240 INFO [http-apr-8080-exec-178] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 16:54:09.356 INFO [http-apr-8080-exec-178] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 17:02:33.653 INFO [http-apr-8080-exec-195] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 17:02:33.768 INFO [336] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 17:03:44.648 INFO [http-apr-8080-exec-198] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 17:03:44.780 INFO [http-apr-8080-exec-198] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 17:06:15.568 INFO [http-apr-8080-exec-204] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 17:06:15.699 INFO [http-apr-8080-exec-204] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 17:10:10.681 INFO [http-apr-8080-exec-211] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 17:10:10.819 INFO [http-apr-8080-exec-211] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 17:10:50.010 INFO [http-apr-8080-exec-217] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 17:10:50.126 INFO [http-apr-8080-exec-217] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 17:11:16.821 INFO [http-apr-8080-exec-218] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 17:11:16.921 INFO [http-apr-8080-exec-218] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 17:12:12.830 INFO [http-apr-8080-exec-218] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 17:12:12.930 INFO [http-apr-8080-exec-218] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 17:13:07.537 INFO [http-apr-8080-exec-229] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 17:13:07.653 INFO [http-apr-8080-exec-229] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 17:13:40.772 INFO [http-apr-8080-exec-236] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 17:13:40.910 INFO [http-apr-8080-exec-236] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 17:18:00.818 INFO [http-apr-8080-exec-244] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 17:18:00.918 INFO [http-apr-8080-exec-244] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 17:19:20.726 INFO [http-apr-8080-exec-254] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 17:19:20.826 INFO [http-apr-8080-exec-254] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 17:24:41.541 INFO [http-apr-8080-exec-261] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 17:24:41.641 INFO [http-apr-8080-exec-261] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 22:18:31.222 INFO [http-apr-8080-exec-275] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 22:18:31.322 INFO [http-apr-8080-exec-275] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 22:19:20.522 INFO [http-apr-8080-exec-271] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 22:19:20.601 INFO [http-apr-8080-exec-271] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 22:54:04.922 INFO [http-apr-8080-exec-285] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 22:54:05.022 INFO [http-apr-8080-exec-285] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 22:59:12.601 INFO [http-apr-8080-exec-293] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 22:59:12.704 INFO [http-apr-8080-exec-293] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 23:00:13.476 INFO [http-apr-8080-exec-304] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 23:00:13.614 INFO [http-apr-8080-exec-304] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 23:00:55.963 INFO [http-apr-8080-exec-302] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 23:00:56.064 INFO [http-apr-8080-exec-302] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 23:09:24.486 INFO [http-apr-8080-exec-316] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 23:09:24.586 INFO [http-apr-8080-exec-316] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 23:10:16.713 INFO [http-apr-8080-exec-326] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 23:10:16.828 INFO [http-apr-8080-exec-326] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 23:20:11.795 INFO [http-apr-8080-exec-337] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 23:20:11.911 INFO [http-apr-8080-exec-337] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 23:21:07.594 INFO [http-apr-8080-exec-346] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 23:21:07.709 INFO [http-apr-8080-exec-346] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 23:25:07.770 INFO [http-apr-8080-exec-351] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 23:25:07.871 INFO [http-apr-8080-exec-351] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 23:27:12.931 INFO [http-apr-8080-exec-359] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 23:27:13.031 INFO [http-apr-8080-exec-359] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 23:27:53.560 INFO [http-apr-8080-exec-359] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] has started
+27-Sep-2017 23:27:53.756 INFO [http-apr-8080-exec-359] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ch07_ex3_cart_sol] is completed
+27-Sep-2017 23:30:08.484 INFO [http-apr-8080-exec-381] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ch07_ex3_cart_sol]
+27-Sep-2017 23:41:45.486 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Sep-2017 23:41:45.486 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+27-Sep-2017 23:41:45.486 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+27-Sep-2017 23:41:45.539 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+27-Sep-2017 23:41:45.539 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+27-Sep-2017 23:41:45.655 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+27-Sep-2017 23:41:45.722 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+27-Sep-2017 23:41:45.723 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
